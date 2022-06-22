@@ -1,0 +1,87 @@
+/* Zerando o body */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Container que receberá toda a pagina*/
+#container{
+    position: relative;
+    width: 360px;
+    height: 600px;
+    border-width: 5px;
+    background-color:#4D5673;
+}
+/* Parte de dentro que ficará o formulário*/
+.form{
+    position: relative;
+    left: 30px;
+    top: 5px;
+    width: 300px;
+    height: 590px;
+    background-color: #3B4259;
+
+}
+/*Titulo do formulário com fonte externa*/
+.titulo{
+    position: absolute;
+    text-decoration-line:underline ;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+    color: #C5CAD9;
+    left: 30px;
+    top: 50px;
+    @font-face {
+        font-family:voga ;
+        src: url('voga.ttf');
+    }
+}
+.entrada1{
+    position:absolute;
+    color: #C5CAD9;
+    left: 30px;
+    top: 150px;
+    @font-face {
+        font-family:voga ;
+        src: url('voga.ttf');
+    }
+}
+.entrada2{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+}
+.entrada3{
+    position: absolute;
+    left: 30px;
+    top: 310px;
+}
+.entrada4{
+    position: absolute;
+    left: 30px;
+    top: 390px;
+}
+input{
+    background: transparent;
+    border: 1px;
+    border-bottom: 2px; 
+    color: #C5CAD9;
+    border-bottom-style: solid;
+    width: 240px;
+    height: 30px;
+    box-sizing: border-box;
+}
+.buttom{
+    position: absolute;
+    color: #C5CAD9;
+    border: none;
+    background-color: #A63C58;
+    width: 240px;
+    height: 40px;
+    left: 30px;
+    top: 490px
+}
+.buttom:hover{
+    background-color: #C5CAD9;
+    transition-duration: 1s;
+    color: #3B4259;
+}
