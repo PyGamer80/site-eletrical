@@ -12,7 +12,7 @@ body{
     background-color:#4D5673;
 }
 /* Parte de dentro que ficará o formulário*/
-.form{
+form{
     position: relative;
     left: 30px;
     top: 5px;
@@ -63,7 +63,7 @@ body{
 input{
     background: transparent;
     border: 1px;
-    border-bottom: 2px; 
+    border-bottom: 1px; 
     color: #C5CAD9;
     border-bottom-style: solid;
     width: 240px;
@@ -72,11 +72,12 @@ input{
 }
 .buttom{
     position: absolute;
+    transition: all 1s;
     color: #C5CAD9;
     border: none;
     background-color: #A63C58;
     width: 240px;
-    height: 40px;
+    height: 50px;
     left: 30px;
     top: 490px
 }
@@ -84,4 +85,5 @@ input{
     background-color: #C5CAD9;
     transition-duration: 1s;
     color: #3B4259;
+    cursor: pointer;
 }

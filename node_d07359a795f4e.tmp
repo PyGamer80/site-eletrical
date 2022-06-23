@@ -3,13 +3,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
+    <meta http-equiv="refresh" content="5s">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EletricCalc</title>
     <link rel="icon" type="image/icon" href="img/favicon2.png">
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
-    <script type="text/javascript" src="javascript/javascript.js" defer></script>
+    <script type="text/javascript" src="javascript/javascript.js"></script>
 </head>
 
 <body>
@@ -20,23 +20,22 @@
             </div>
             <div class="entrada1">
                 <label for="testo1">Potência</label><br>
-                <input class="testo1" type="number" id="testo1" name="testo1" placeholder="W">
+                <input type="text" id="testo1" name="testo1" placeholder="W">
             </div>
             <div class="entrada2 entrada1" >
                 <label for="testo2">Tensão</label><br>
-                <input class="testo2" type="number" id="testo2" name="testo2" placeholder="U">
+                <input type="text" id="testo2" name="testo1" placeholder="U">
             </div>
             <div class="entrada3 entrada1">
                 <label for="testo3">Corrente</label><br>
-                <input type="number" id="testo3" name="testo3" placeholder="A">
+                <input type="text" id="testo3" name="testo1" placeholder="A">
             </div>
             <div class="entrada4 entrada1">
                 <label for="testo4">Resistência</label><br>
-                <input type="number" id="testo4" name="testo4" placeholder="R">
+                <input type="text" id="testo4" name="testo1" placeholder="R">
             </div>
-            <button  onclick="capturar()" class="buttom" >Calcular</button>
+            <button class="buttom">Calcular</button> 
         </form>
-
     </div>
     
 </body>
