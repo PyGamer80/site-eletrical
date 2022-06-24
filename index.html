@@ -9,7 +9,7 @@
     <title>EletricCalc</title>
     <link rel="icon" type="image/icon" href="img/favicon2.png">
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
-    <script type="text/javascript" src="javascript/javascript.js" defer></script>
+    <script type="text/javascript" src="javascript/javascript.js" ></script>
 </head>
 
 <body>
@@ -19,23 +19,24 @@
                 <h2>Ohms</h2>
             </div>
             <div class="entrada1">
-                <label for="testo1">Potência</label><br>
-                <input class="testo1" type="number" id="testo1" name="testo1" placeholder="W">
+                <label for="texto1">Potência</label><br>
+                <input type="number" id="texto1" name="texto1" placeholder="W">
             </div>
             <div class="entrada2 entrada1" >
-                <label for="testo2">Tensão</label><br>
-                <input class="testo2" type="number" id="testo2" name="testo2" placeholder="U">
+                <label for="texto2">Tensão</label><br>
+                <input  type="number" id="texto2" name="texto2" placeholder="U">
             </div>
             <div class="entrada3 entrada1">
-                <label for="testo3">Corrente</label><br>
-                <input type="number" id="testo3" name="testo3" placeholder="A">
+                <label for="texto3">Corrente</label><br>
+                <input type="number" id="texto3" name="texto3" placeholder="A">
             </div>
             <div class="entrada4 entrada1">
-                <label for="testo4">Resistência</label><br>
-                <input type="number" id="testo4" name="testo4" placeholder="R">
+                <label for="texto4">Resistência</label><br>
+                <input type="number" id="texto4" name="texto4" placeholder="R">
             </div>
-            <button  onclick="capturar()" class="buttom" >Calcular</button>
+            <input type="button"  onclick="capturar()"  class="buttom" value="Calcular" >
         </form>
+        
 
     </div>
     
