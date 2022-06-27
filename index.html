@@ -3,7 +3,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EletricCalc</title>
@@ -16,25 +15,26 @@
     <div id="container">
         <form>
             <div class="titulo">
-                <h2>Ohms</h2>
+                <h2>Ohms </h2>
             </div>
             <div class="entrada1">
-                <label for="texto1">Potência</label><br>
+                <label class="label" for="texto1"></label><br>
                 <input type="number" id="texto1" name="texto1" placeholder="W">
             </div>
             <div class="entrada2 entrada1" >
-                <label for="texto2">Tensão</label><br>
+                <label class="label" for="texto2"></label><br>
                 <input  type="number" id="texto2" name="texto2" placeholder="U">
             </div>
             <div class="entrada3 entrada1">
-                <label for="texto3">Corrente</label><br>
-                <input type="number" id="texto3" name="texto3" placeholder="A">
+                <label class="label" for="texto3"></label><br>
+                <input type="number" id="texto3" name="texto3" placeholder="I">
             </div>
             <div class="entrada4 entrada1">
-                <label for="texto4">Resistência</label><br>
+                <label class="label" for="texto4"></label><br>
                 <input type="number" id="texto4" name="texto4" placeholder="R">
             </div>
-            <input type="button"  onclick="capturar()"  class="buttom" value="Calcular" >
+            <input type="button"  onclick="calcular()"  class="buttom" value="Calcular" >
+            
         </form>
         
 
